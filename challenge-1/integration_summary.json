@@ -1,0 +1,44 @@
+{
+  "integration_summary": {
+    "completion_date": "2025-12-09T11:31:06.744963",
+    "search_service": "msagthack-search-zfqvpzep3hfxa",
+    "search_index": "insurance-documents-index",
+    "total_documents_processed": 10,
+    "total_chunks_indexed": 176,
+    "embedding_model": "text-embedding-ada-002",
+    "vectorization_method": "Azure AI Search Integrated Vectorization",
+    "chunk_configuration": {
+      "chunk_size": 1000,
+      "chunk_overlap": 200
+    }
+  },
+  "search_capabilities": {
+    "semantic_search": true,
+    "vector_search": true,
+    "hybrid_search": true,
+    "automatic_vectorization": true,
+    "real_time_indexing": true
+  },
+  "index_statistics": {
+    "name": "insurance-documents-index",
+    "field_count": 12,
+    "document_count": 132,
+    "storage_size": 437521,
+    "vector_index_size": 0
+  },
+  "ready_for_ai_agents": true,
+  "categories_processed": {
+    "policies": {
+      "chunks": 44,
+      "total_characters": 37186,
+      "files": [
+        "comprehensive_auto_policy.md",
+        "high_value_vehicle_policy.md",
+        "commercial_auto_policy.md",
+        "motorcycle_policy.md",
+        "liability_only_policy.md"
+      ],
+      "unique_files": 5
+    }
+  }
+}
